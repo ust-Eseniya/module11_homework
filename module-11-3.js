@@ -1,24 +1,11 @@
-function example(func, b){
+function example(a){
 
-    func();
-  
-    return function(){
+    return function(b){
   
       console.log(a + b)
   
     }
   
   }
-  
-  function argFunc(a){
-  
-    console.log(a)
-  
-  }
-  
-  const resultFunc = example(argFunc);
-  
-  resultFunc(); 
-  
-  argFunc(1)
-  example(argFunc, 3)
+const innerFunction = example (3);
+innerFunction (2);
