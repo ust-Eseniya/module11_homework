@@ -14,7 +14,8 @@ for (let i = 0; i < arr.length; i++) {
     NoNumb++;
   }
 }
-  const arr = [2, 5, 6, 0, 'noize', '25'];
+
+const arr = [2, 5, 6, 0, 'noize', '25'];
 
 console.log ('total evem number: ' + evenNum);
 console.log ('total odd number: ' + oddNum);
