@@ -1,6 +1,5 @@
-function parityCheck(){
+function parityCheck(arr){
 
-const arr = [2, 5, 6, 0, 'noize', '25'];
 let oddNum = 0;
 let evenNum = 0;
 let NoNumb = 0;
@@ -15,10 +14,12 @@ for (let i = 0; i < arr.length; i++) {
     NoNumb++;
   }
 }
+  const arr = [2, 5, 6, 0, 'noize', '25'];
+
 console.log ('total evem number: ' + evenNum);
 console.log ('total odd number: ' + oddNum);
 console.log ('Not are number: ' + NoNumb);
 
 }
 
-parityCheck ();
+parityCheck (arr);
